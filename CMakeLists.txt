@@ -5,6 +5,7 @@ project(control_toolbox)
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
+add_compile_options(-fPIC)
 
 find_package(ament_cmake REQUIRED)
 find_package(control_msgs REQUIRED)
